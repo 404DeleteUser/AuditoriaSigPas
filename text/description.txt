@@ -1,0 +1,32 @@
+pandas 
+    Importa a biblioteca Pandas, usada para manipulação e análise de dados.
+
+Numpy
+    Importa o NumPy, biblioteca para cálculos numéricos e operações matemáticas eficientes.
+
+From datetime import datetime 
+    importa a classe datetime da biblioteca padrão datetime usadas para trabalhar com datas e horarios
+
+From pathlib import Path 
+    Importa a classe Path para trabalhar com caminhos de arquivos e pastas, criando caminhos por exemplo
+
+import json
+    Importa a biblioteca padrão para trabalhar com arquivos e dados no formato JSON.
+        !!por enquanto ainda nao usado!!
+
+import sys
+    importa a biblioteca padrão que permite interagir com o sistema e o ambiente python, podendo encerrar um programa pro exeplo {sys.exit}
+
+from unittest.mock import MagicMock
+    MagicMock cria objetoso falsos durante os testes
+
+pytest
+    Framework de testes automatizados
+        pytest-mock
+            extensão pytest para criar simulações, simulando arquivos, banco de dados...
+
+        pytest-watch    
+            roda testes automaticamente quando você salva o arquivos
+
+black
+    formatador automatico de código, padroniza o estilo do código
