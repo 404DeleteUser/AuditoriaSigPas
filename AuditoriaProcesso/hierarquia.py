@@ -39,6 +39,7 @@ def organograma():
                 "COORDENADORIA DE DESENVOLVIMENTO DE SOLUCOES DE TI": {
                     "NUCLEO DE ANALISE E DESENVOLVIMENTO DE SOLUCOES DE TI": {},
                     "NUCLEO DE INTELIGENCIA DE NEGOCIOS": {},
+                    "NUCLEO DE TECNOLOGIAS EDUCACIONAIS": {},
                 },
                 "COORDENADORIA DE INFRAESTRUTURA E SEGURANCA DA INFORMACAO": {
                     "NUCLEO DE INFRAESTRUTURA DE TI": {},
@@ -63,6 +64,7 @@ def organograma():
                 },
                 "COORDENADORIA DE DESENVOLVIMENTO": {
                     "NUCLEO DE E-FORMACAO E MIDIA": {},
+                    "NUCLEO DE E FORMACAO E MIDIA": {},
                     "NUCLEO DE MONITORAMENTO DA QUALIFICACAO PROFISSIONAL": {},
                     "NUCLEO DE LOGISTICA DE FORMACAO": {},
                 },
@@ -85,7 +87,7 @@ def organograma():
                     "NUCLEO DE CONTROLE DE DESPESAS DE PESSOAL": {},
                 },
                 "COORDENADORIA DE MONITORAMENTO DE PESSOAL": {
-                    "NUCLEO DE GESTAO DA ASSIDUIDADE": {},
+                    "NUCLEO DE GESTAO DE ASSIDUIDADE": {},
                     "NUCLEO DE MONITORAMENTO E IMPACTO DE PESSOAL": {},
                 },
             },
@@ -96,7 +98,8 @@ def organograma():
             "SUPERINTENDENCIA DE PATRIMONIO": {
                 "COORDENADORIA DE PATRIMONIO MOBILIARIO": {},
                 "COORDENADORIA DE PATRIMONIO IMOBILIARIO": {
-                    "NUCLEO DE PATRIMONIO IMOBILIARIO": {}
+                    "NUCLEO DE PATRIMONIO IMOBILIARIO": {},
+                    "NUCLEO DE PATRIMONIO MOBILIARIO": {},
                 },
             },
             "SUPERINTENDENCIA DE OBRAS": {
@@ -131,6 +134,7 @@ def organograma():
                 "GERENCIA DE PRESTACAO E CONFORMIDADE": {},
                 "GERENCIA DE SISTEMA DE INFORMACAO ORCAMENTARIO PUBLICO DE EDUCACAO": {},
             },
+            "SUPERINTENDENCIA DE ADMINISTRATIVA": {},
             "SUPERINTENDENCIA ADMINISTRATIVA": {
                 "COORDENADORIA ADMINISTRATIVA": {
                     "GERENCIA DE PROTOCOLO": {},
@@ -178,6 +182,7 @@ def organograma():
             "SUPERINTENDENCIA DE GESTAO REGIONAL": {
                 "NUCLEO DE GESTAO DE REPASSES": {},
                 "NUCLEO DE MONITORAMENTO DAS DREs": {},
+                "NUCLEO DE MONITORAMENTO DAS DRES": {},
                 "NUCLEO DE INFORMACOES ESTATISTICAS": {},
                 "COORDENADORIA DE ALIMENTACAO ESCOLAR": {
                     "NUCLEO DE NUTRICAO E MONITORAMENTO": {},
@@ -189,7 +194,7 @@ def organograma():
                     "NUCLEO DE ESTRUTURA E FUNCIONAMENTO DE GESTAO ESCOLAR": {},
                     "NUCLEO DE MEDIACAO ESCOLAR": {},
                     "NUCLEO DE ESCRITURACAO": {},
-                    "NUCLEO DE MATRICULA": {},
+                    "NUCLEO DE MATRICULAS": {},
                     "NUCLEO DE BEM-ESTAR": {},
                     "NUCLEO DE BUSCA ATIVA ESCOLAR": {},
                 }
@@ -208,6 +213,9 @@ def organograma():
                 },
                 "COORDENADORIA DE TRANSPORTE ESCOLAR": {},
             },
+        },
+        "NAO SEI CLASSIFICAR": {
+            "C A P D V DE MATO GROSSO CAP MT": {},
         },
     }
 
