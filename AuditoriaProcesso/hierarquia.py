@@ -11,14 +11,16 @@ def organograma():
             "UNIDADE DE COMUNICACAO DA EDUCACAO": {},
             "OUVIDORIA SETORIAL": {},
             "UNIDADE SETORIAL DE CORREICAO": {},
+            "UNIDADE DE APOIO ESTRATEGICO": {},
             "GABINETE DE DIRECAO": {},
             "UNIDADE DE DESENVOLVIMENTO ORGANIZACIONAL": {},
             "UNIDADE ESPECIAL DE ARTICULACAO INSTITUCIONAL": {},
-            "UNIDADE SETORIAL": {},
+            "UNIDADE SETORIAL DA PGE": {},
             "COMISSAO DE ETICA": {},
             "UNIDADE SETORIAL DE CONTROLE INTERNO": {},
-            "UNIDADE DE APOIO ESTRATEGICO": {},
             "UNIDADE DE ASSESSORIA": {},
+
+
             "CONSELHO ESTADUAL DE EDUCACAO": {
                 "SECRETARIA DO CONSELHO": {},
                 "COORDENADORIA DE APOIO AS CAMARAS": {
@@ -29,13 +31,13 @@ def organograma():
             },
         },
         "GABINETE DO SECRETARIO ADJUNTO EXECUTIVO ": {
-            "UNIDADE DE CERIMONIAL": {},
-            "UNIDADE EXECUTIVA E DE NEGOCIO DA SECRETARIA ADJUNTA EXECUTIVA": {},
             "UNIDADE DE COORDENACAO DO PROGRAMA": {},
+            "UNIDADE DE CERIMONIAL": {},
             "UNIDADE DE MICROPLANEJAMENTO": {},
-            "NUCLEO DE APOIO E MONITORAMENTO ESCOLAR": {},
+            "UNIDADE EXECUTIVA E DE NEGOCIOS DA SECRETARIA ADJUNTA EXECUTIVA": {},
+            "UNIDADE DE INTELIGENCIA DE DADOS NA EDUCACAO": {},
             "UNIDADE DE NORMAS DA SECRETARIA ADJUNTA EXECUTIVA": {},
-            "SUPERINTENDENCIA": {
+            "SUPERINTENDENCIA DE TECNOLOGIA DA INFORMACAO": {
                 "COORDENADORIA DE DESENVOLVIMENTO DE SOLUCOES DE TI": {
                     "NUCLEO DE ANALISE E DESENVOLVIMENTO DE SOLUCOES DE TI": {},
                     "NUCLEO DE INTELIGENCIA DE NEGOCIOS": {},
@@ -43,16 +45,17 @@ def organograma():
                 },
                 "COORDENADORIA DE INFRAESTRUTURA E SEGURANCA DA INFORMACAO": {
                     "NUCLEO DE INFRAESTRUTURA DE TI": {},
-                    "NUCLEO DE SUPORTE TECNICO DE TI": {},
+                    "NUCLEO DE SUPORTE DE TI": {},
                     "NUCLEO DE SERVICOS DE TI": {},
-                    "NUCLEO DE SEGURANCA DA INFORMACAO E PROTECAO DE DADOS": {},
+                    "NÚCLEO DE SEGURANÇA DA INFORMAÇÃO E PROTEÇÃO DE DADOS": {}
                 },
             },
             "SUPERINTENDENCIA DE ESCOLAS ESTADUAIS MILITARES E CIVICO MILITARES": {
                 "NUCLEO DE ESCOLAS ESTADUAIS MILITARES": {},
-                "NUCLEO DE ESCOLAS ESTADUAIS CIVICO-MILITARES": {},
+                "NUCLEO DE ESCOLAS ESTADUAIS CIVICO MILITARES": {},
             },
         },
+
         "GABINETE DO SECRETARIO ADJUNTO DE GESTAO DE PESSOAS": {
             "UNIDADE EXECUTIVA E DE NEGOCIO DA GESTAO DE PESSOAS": {},
             "UNIDADE POLITICAS DE FORMACAO CONTINUADA": {},
@@ -75,7 +78,6 @@ def organograma():
                     "GERENCIA DE QUADRO DE PESSOAL": {},
                     "NUCLEO DE RECRUTAMENTO E SELECAO": {},
                     "NUCLEO DE PROVIMENTO DA EDUCACAO ESPECIAL": {},
-                    "NUCLEO DE PROVIMENTO DA EDUCACAO ESPECIAL": {},
                     "NUCLEO DE ESTAGIO": {},
                     "NUCLEO DE SELETIVOS INTERNOS E EXTERNOS": {},
                 },
@@ -96,10 +98,11 @@ def organograma():
             "UNIDADE EXECUTIVA E DE NEGOCIO DA INFRAESTRUTURA E PATRIMONIO": {},
             "UNIDADE DE NORMAS DA INFRAESTRUTURA E PATRIMONIO": {},
             "SUPERINTENDENCIA DE PATRIMONIO": {
-                "COORDENADORIA DE PATRIMONIO MOBILIARIO": {},
+                "COORDENADORIA DE PATRIMONIO MOBILIARIO": {
+                    "NUCLEO DE PATRIMONIO MOBILIARIO": {},
+                },
                 "COORDENADORIA DE PATRIMONIO IMOBILIARIO": {
                     "NUCLEO DE PATRIMONIO IMOBILIARIO": {},
-                    "NUCLEO DE PATRIMONIO MOBILIARIO": {},
                 },
             },
             "SUPERINTENDENCIA DE OBRAS": {
@@ -125,7 +128,7 @@ def organograma():
                 "COORDENADORIA DE ORCAMENTO": {},
                 "COORDENADORIA FINANCEIRA": {
                     "NUCLEO DE CONFORMIDADE": {},
-                    "NUCLEO DE PESTACAO DE CONTAS DE DIARIAS": {},
+                    "NUCLEO DE PRESTACAO DE CONTAS DE DIARIAS": {},
                 },
                 "NUCLEO DE RECEITA": {},
             },
@@ -190,32 +193,33 @@ def organograma():
                 },
             },
             "SUPERINTENDENCIA DE GESTAO ESCOLAR": {
-                "COORDENADORIA DE GESTAO DE REDE": {
+                "COORDENADORIA DE GESTAO DA REDE": {
                     "NUCLEO DE ESTRUTURA E FUNCIONAMENTO DE GESTAO ESCOLAR": {},
                     "NUCLEO DE MEDIACAO ESCOLAR": {},
                     "NUCLEO DE ESCRITURACAO": {},
                     "NUCLEO DE MATRICULAS": {},
-                    "NUCLEO DE BEM-ESTAR": {},
+                    "NUCLEO DE BEM-ESTAR ESCOLAR": {},
                     "NUCLEO DE BUSCA ATIVA ESCOLAR": {},
                 }
             },
         },
         "GABINETE DO SECRETARIO ADJUNTO DE REGIME DE COLABORACAO": {
-            "NUCLEO EDUCA-MT": {},
-            "NUCLEO DE ANALISE E MONITORAMENTO DE INDICADORES": {},
-            "UNIDADE EXECUTIVA E DE NEGOCIO DE REGIME DE COLABORACAO": {},
+            "UNIDADE EXECUTIVA E DE NEGOCIO DO REGIME DE COLABORACAO": {},
             "UNIDADE DE NORMAS DO REGIME DE COLABORACAO": {},
-            "SUPERINTENDENCIA DE POLITICAS EM REGIME DE COLABORACAO": {
+            "SUPERINTENDENCIA DE ALFABETIZACAO EM REGINE DE COLABORACAO": {
                 "COORDENADORIA DE IMPACTO EDUCACIONAL": {
                     "NUCLEO DE APOIO E DESENVOLVIMENTO DA EDUCACAO INFANTIL": {},
                     "NUCLEO DE APOIO E DESENVOLVIMENTO DA ALFABETIZACAO E ANOS INICIAIS": {},
                     "NUCLEO DE APOIO E DESENVOLVIMENTO A GESTAO MUNICIPAL": {},
-                },
-                "COORDENADORIA DE TRANSPORTE ESCOLAR": {},
+                }
             },
-        },
-        "NAO SEI CLASSIFICAR": {
-            "C A P D V DE MATO GROSSO CAP MT": {},
+            "SUPERINTENDENCIA DE POLITICAS EM REGIME DE COLABORACAO": {
+                "COORDENADORIA DE TRANSPORTE ESCOLAR": {
+                    "NUCLEO DE ANALISE E MONITORAMENTO DE INDICADORES": {},
+                    "NUCLEO EDUCA-MT": {},
+                },
+            }
+
         },
     }
 
